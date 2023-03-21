@@ -1,9 +1,10 @@
 #include <iostream>
 #include <boost/asio.hpp>
+#include <spdlog/spdlog.h>
 
 int main(int argc, char* argv[])
 {
-	std::cout << "Hello world!" << std::endl;
+	spdlog::info("{}!", "Hello world");
 
 	return 0;
 }
