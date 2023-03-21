@@ -3,6 +3,15 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# files
+libs/lib/boost/libboost_wave-vc170-mt-gd-x64-1_81.lib
+libs/lib/boost/libboost_log_setup-vc170-mt-gd-x64-1_81.lib
+libs/lib/boost/libboost_log-vc170-mt-gd-x64-1_81.lib
+libs/lib/boost/libboost_test_exec_monitor-vc170-mt-gd-x64-1_81.lib
+
+# directories
+bundles/
+
 # User-specific files
 *.rsuser
 *.suo
