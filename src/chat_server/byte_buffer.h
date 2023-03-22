@@ -3,6 +3,7 @@
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
+#include <deque>
 
 class ByteBuffer
 {
@@ -77,3 +78,5 @@ private:
     char data_[header_length + max_body_length];
     std::size_t body_length_;
 };
+
+using message_queue = std::deque<ByteBuffer>;

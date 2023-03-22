@@ -18,7 +18,6 @@ private:
 
 private:
     tcp::socket sock_;
-    ByteBuffer read_msg_;
-    typedef std::deque<ByteBuffer> message_queue;
+    ByteBuffer read_msg_;    
     message_queue write_msgs_;
 };
